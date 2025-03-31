@@ -1,0 +1,69 @@
+description: >
+  Full papers and short presentations are invited on original and unpublished research on various aspects of Formal Methods for Reconfigurable Systems. System Descriptions are both allowed as full paper or short presentation.
+
+  Accepted Full Papers will be included in the workshop programme and will appear in the workshop pre-proceedings as well as in the LNCS post-proceedings. Short presentations will be included in the pre-proceedings.
+
+  Pre-proceedings will be available online before the Workshop
+
+
+portal: Easy Chair
+url: "https://easychair.org/conferences/?conf=reacts2025"
+
+file_formats:
+  - PDF
+languages:
+  - English
+
+review_mode: 1
+# 0: double blind
+# 1: single blind
+
+pagelimits:
+  - type: fullpaper
+    name: Full Paper
+    limit: 12
+  - type: short
+    name: Short Presentations
+    limit: 4
+
+fontsize: 10
+
+# extra: |
+#   <h6 class="text-info">Compilation</h6>
+
+#   Let the fileame of your submision be <code>ABC.tex</code>.
+
+#   <pre class="pre-scrollable bg-dark text-light rounded mt-2 p-2">
+#   $ xelatex ABC
+#   $ bibtex ABC
+#   $ bibtex ABC # Remember to run bibtex twice
+#   $ xelatex ABC
+#   </pre>
+
+# sources:
+# - name: Sample TeX Source File
+#   url: ./assets/files/samplepaper.tex
+#   text: samplepaper.tex
+# - name: Sample PDF file
+#   url: ./assets/files/samplepaper.pdf
+#   text: samplepaper.pdf
+# - name: Style file
+#   url: ./assets/files/llncs.cls
+#   text: llncs.cls
+# - name: Bibliography Style
+#   url: ./assets/files/splncs04.bst
+#   text: splncs04.bst
+# - name: Figure Sample
+#   url: ./assets/files/fig1.eps
+#   text: fig1.eps
+# - name: Readme
+#   url: ./assets/files/readme.txt
+#   text: readme.txt
+
+template:
+  name: Lecture Notes in Computer Science (LNCS)
+  description: submission template and instructions for LNCS
+  url: https://www.springer.com/gp/computer-science/lncs
+  #overleaf: https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj
+
+publisher: Proceedings in LNCS from Springer 
