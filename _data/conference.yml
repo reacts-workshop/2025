@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   <h2> (Initial Draft) </h3>
   This is a satellite event of  <a href="https://sefm-conference.github.io/2025/" >SEFM 2025</a>
 
-email: jose.proenca@fc.up.pt / ...
+email: jose.proenca@fc.up.pt / umberto@fsof.uned.es
 
 iteration: 2nd
 full_title: "2nd International Workshop on Reconfigurable Transition Systems: Semantics, Logics and Applications"
@@ -23,44 +23,56 @@ show_logo: true
 show_title: false
 
 slideshow:
-  - id: 0
-    image_path: ./assets/images/slideshow/0-banner.jpg
-    description: "Toledo by night"
-    photographer_name: ""
-    photographer_link: ""
-    active: True
+  # - id: 0
+  #   image_path: ./assets/images/slideshow/0-banner.jpg
+  #   description: "Toledo by night"
+  #   photographer_name: ""
+  #   photographer_link: ""
+  #   active: True
   # - id: 1
   #   image_path: ./assets/images/slideshow/1-aveiro.jpeg
   #  # description: ""
   #   photographer_name: ""
   #   photographer_link: ""
+  - id: 0
+    image_path: ./assets/images/slideshow/0-wei-hunag.jpg
+    description: >
+      Photo by <a href="https://unsplash.com/@wei0411?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Wei Hunag</a> on <a href="https://unsplash.com/photos/white-and-brown-concrete-buildings-near-body-of-water-during-daytime-Wsq7mTqt8nE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    photographer_name: ""
+    photographer_link: ""
+    active: True
   - id: 1
-    image_path: ./assets/images/slideshow/0-banner.jpg
-    description: "Toledo by night"
+    image_path: ./assets/images/slideshow/1-alex-garcia.jpg
+    description: >
+      Photo by <a href="https://unsplash.com/@soyjosa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alex Garcia</a> on <a href="https://unsplash.com/photos/people-walking-on-street-during-daytime-jF_XUvPHG44?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
     photographer_name: ""
     photographer_link: ""
     active: True
   - id: 2
-    image_path: ./assets/images/slideshow/0-banner.jpg
-    description: "Toledo by night"
+    image_path: ./assets/images/slideshow/2-javier-alamo-rodriguez.jpg
+    description: >
+      Photo by <a href="https://unsplash.com/@javier1965?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">javier alamo rodriguez</a> on <a href="https://unsplash.com/photos/people-walking-near-white-concrete-building-during-night-time-5gx8B2lTLDw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
     photographer_name: ""
     photographer_link: ""
     active: True
   - id: 3
-    image_path: ./assets/images/slideshow/0-banner.jpg
-    description: "Toledo by night"
+    image_path: ./assets/images/slideshow/3-greta-scholderle-moller.jpg
+    description: >
+      Photo by <a href="https://unsplash.com/@schoelderle?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Greta Schölderle Möller</a> on <a href="https://unsplash.com/photos/aerial-photography-of-buildings-FOc1dAPuCIU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
     photographer_name: ""
     photographer_link: ""
     active: True
   - id: 4
-    image_path: ./assets/images/slideshow/0-banner.jpg
-    description: "Toledo by night"
+    image_path: ./assets/images/slideshow/4-aki.jpg
+    description: >
+      Photo by <a href="https://unsplash.com/@fan_world2020?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aki</a> on <a href="https://unsplash.com/photos/brown-and-white-concrete-building-during-daytime-TF8YCvNalQQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
     photographer_name: ""
     photographer_link: ""
     active: True
   - id: 5
-    image_path: ./assets/images/slideshow/0-banner.jpg
-    description: "Toledo by night"
+    image_path: ./assets/images/slideshow/5-miguel-angel-sanz.jpg
+    description: >
+      Photo by <a href="https://unsplash.com/@maswdl95?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Miguel Ángel Sanz</a> on <a href="https://unsplash.com/photos/brown-concrete-building-on-green-grass-field-near-body-of-water-during-daytime-e8bIAHYttlk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
     photographer_name: ""
     photographer_link: ""
     active: True
@@ -105,11 +117,11 @@ deadline_timezone: AoE
 deadlines:
   - date: 2025-08-27
     text: Submission deadline
-    pass_due: True
+    pass_due: False
     strike_through: False
   - date: 2025-09-25
     text: Notification of acceptance
-    pass_due: True
+    pass_due: False
     strike_through: False
   - date: 2025-10-20 
     text: Camera-ready due
@@ -138,10 +150,10 @@ deadlines:
 # social_media:
 #   facebook_link:
 #   twitter_link:
-# previous_iterations:
-#   - name: 6th ISCLS
-#     year: 2019
-#     url: https://iscls.github.io/iscls2019/
+previous_iterations:
+  - name: 1st ReacTS
+    year: 2024
+    url: https://reacts2024.github.io/
 #   - name: 5th ISCLS
 #     year: 2013
 #     url: https://sites.google.com/site/5isclc2013/Home
