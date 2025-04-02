@@ -115,12 +115,16 @@ navbar:
   #   visible: True
 deadline_timezone: AoE
 deadlines:
-  - date: 2025-08-27
-    text: Submission deadline
+  # - date: 2024-08-20 - before extension in 2024
+  # - date: 2024-08-27 - after extension in 2024
+  - date: 2025-08-20
+    text: Tentative submission deadline
     pass_due: False
     strike_through: False
-  - date: 2025-09-25
-    text: Notification of acceptance
+  # - date: 2024-09-20 - before extension in 2024
+  # - date: 2024-09-25 - after extension in 2024
+  - date: 2025-09-20
+    text: Tentative notification of acceptance
     pass_due: False
     strike_through: False
   - date: 2025-10-20 
