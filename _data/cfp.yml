@@ -18,19 +18,24 @@ description: >
   
 areas:
 - category: "Reconfigurable transitions systems (RTS)"
-  topics:
+  topics:    
     - Models for the analysis of reconfigurable systems.
-    - Applications of formal models for reconfigurable systems. 
+    - Applications of formal models for reconfigurable systems.
     - Computational tools to animate and analyze RTS.
-    - Generalizations of RTS - Fuzzy RTS, Paraconsistent RTS, Weighted RTS, etc.
-    - Featured Transition System.
+    - Generalizations of RTS - Fuzzy RTS, Paraconsistent RTS, Weighted RTS, Stochastic RTS, etc.
+    - Featured Transition Systems.
+    - Reconfigurable Cyber Physical Systems.
+
 - category: "Logical Methods"
   topics:
     - Dynamic Logics, Separation Logics, Dynamic Epistemic Logics for RTS.
     - Bisimulations and general algebraic constructions.
     - Model Checking and Tools.
-    - Reactive systems and Process Algebra
-    - Applications of AI for RTS
+    - Reactive systems and Process Algebra.
+    - Logics for Cyber Physical Systems.
+    - Topological/Algebraic Semantics.
+    - Applications of AI for RTS.
+
 
 # - category: "Shāstric Sanskrit Texts and Computation"
 #   topics:
