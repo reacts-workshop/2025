@@ -66,9 +66,9 @@
   # - name: Carlos Areces
   #   org: Universidad Nacional de Córdoba and CONICET (Argentina)
   #   homepage: https://carlosareces.github.io
-  # - name: Luis Soares Barbosa
-  #   org: "Universidade Do Minho (Portugal)"
-  #   homepage: "https://www.di.uminho.pt/~lsb/"
+  - name: Luis Soares Barbosa
+    org: "Universidade Do Minho (Portugal)"
+    homepage: "https://www.di.uminho.pt/~lsb/"
   - name: Benjamin Bedregal
     org: Universidade Federal do Rio Grande do Norte (Brazil)
     homepage: ""
