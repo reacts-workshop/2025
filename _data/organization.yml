@@ -86,9 +86,9 @@
   # - name: Johan van Benthem
   #   org: ILLC, University of Amsterdam (The Netherlands) & Stanford University (USA)
   #   homepage: https://staff.fnwi.uva.nl/j.vanbenthem
-  # - name: Patrick Blackburn
-  #   org: University of Roskilde (Denmark)
-  #   homepage: https://www.patrickblackburn.org
+  - name: Patrick Blackburn
+    org: University of Roskilde (Denmark)
+    homepage: https://www.patrickblackburn.org
   - name: Valentin Cassano
     org: Universidad Nacional de Río Cuarto and CONICET (Argentina)
     homepage: http://vcassano.github.io
