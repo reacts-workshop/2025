@@ -103,6 +103,11 @@ body {
     color: inherit;
 }
 
+.card-body {
+    padding: 1em;
+    padding-bottom: 2.2em;
+}
+
 .nav {
     border-radius: 5px;
 }

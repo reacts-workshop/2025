@@ -139,7 +139,16 @@ deadlines:
   #   pass_due: False
   #   strike_through: False
 
-# sponsors:
+sponsors:
+  - name: Universidad Nacional de Educación a Distancia (UNED)
+    logo_path: /assets/images/sponsors/uned-logo.png
+    url: https://uned.es/
+  - name: Faculty of Sciences of the University of Porto (FCUP)
+    logo_path: /assets/images/sponsors/fcup-logo.png
+    url: https://www.up.pt/fcup/en/
+  - name: Research Centre in Real-Time and Embedded Computing Systems (CISTER)
+    logo_path: /assets/images/sponsors/cister-logo.png
+    url: https://cister-labs.pt
 #   - name: International Association of Sanskrit Studies
 #     logo_path: ./assets/images/sponsors/iass-logo.png
 #     url: https://www.sanskritassociation.org/
