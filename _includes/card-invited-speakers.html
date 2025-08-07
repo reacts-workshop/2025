@@ -1,0 +1,29 @@
+{% for committee in site.data.organization %}
+{% if committee.title == "Invited Speakers" %}
+<div class="card">
+    <div class="card-header text-white bg-dark">
+    <i class="fa fa-star mr-3" aria-hidden="true"></i>
+    <strong>{{committee.title}}</strong></div>
+    {% if committee.members %}
+    {% for member in committee.members %}
+    <div class="card-block bg-light committee">
+        <p>
+            <a href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>
+        </p>
+        {% if member.post %}
+        <p class="card-subtitle text-muted" style="font-size: 90%;">{{ member.post }}</p>
+        {% endif %}
+        <p class="card-subtitle text-muted" style="font-size: 90%;">{{ member.org }}</p>
+    </div>
+    {% endfor %}
+    {% else %}
+    <div class="card-block bg-light committee">
+        <p class="card-title">TBA</p>
+        <p><strong>TBA</strong>
+        </p>
+        <p class="card-subtitle text-muted" style="font-size: 90%;">TBA</p>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+{% endfor %}
