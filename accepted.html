@@ -1,29 +1,16 @@
 ---
 title: Accepted Papers
 layout: page
-slide_id: 7
+slide_id: 5
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Accepted Papers</title>
+<div>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1, h2, h4 {
-            color: #68c3b7
-            ;
-        }
-        ul {
+        .ulacc {
             list-style-type: none;
             padding-left: 0;
         }
-        li {
+        .liacc {
             margin-bottom: 10px;
         }
         .paper-title {
@@ -33,64 +20,63 @@ slide_id: 7
             font-style: italic;
         }
     </style>
-</head>
-<body>
+
     <h6 class="text-info">Accepted Papers</h6>
-    <ul>
-        <li>
+    <ul class="ulacc">
+        <li class="liacc">
             <span class="paper-title">Comparing finite many-valued logics via WSkS</span> -
             <span class="authors">Sergio Marcelino</span>
-        </li><li>
+        </li><li class="liacc">
             <span class="paper-title">goLoop: SMT-Based Loop Analysis via Global Optimization</span> -
             <span class="authors">Markus Krahl, Matthias Güdemann, Stefan Wallentowitz</span>
-        </li><li>
+        </li><li class="liacc">
             <span class="paper-title">Probabilistic Relation-Changing Operators</span> -
             <span class="authors">Daniel Figueiredo, Manuel Martins, Raul Fervari</span>
-        </li><li>
+        </li><li class="liacc">
             <span class="paper-title">Reconfigurable stochastic multi-formalism models: an approach based on Maude</span> -
             <span class="authors">Lorenzo Capra, Marco Gribaudo</span>
         </li>
-<!--         <li>
+   </ul>
+
+<!--         <li class="liacc">
             <span class="paper-title">Binders for switch graphs specification</span> - 
             <span class="authors">Daniel Figueiredo and Alexandre Madeira</span>
         </li>
-        <li>
+        <li class="liacc">
             <span class="paper-title">Towards resolving distributed beliefs</span> - 
             <span class="authors">John Lindqvist, Fernando R. Velázquez-Quesada and Thomas Ågotnes</span>
         </li>
-        <li>
+        <li class="liacc">
             <span class="paper-title">Arbitrary Radical Upgrades</span> - 
             <span class="authors">Raul Fervari and Benjamin Icard</span>
         </li>
-        <li>
+        <li class="liacc">
             <span class="paper-title">Behavioural Equivalences over Reconfigurable Systems</span> - 
             <span class="authors">Bogdan Aman and Gabriel Ciobanu</span>
         </li>
-        <li>
+        <li class="liacc">
             <span class="paper-title">Higher-order arrows for Path-Dependent Many-Valued Systems</span> - 
             <span class="authors">Sérgio Marcelino</span>
         </li>
- -->    </ul>
+ -->
 
     <h6 class="text-info">Short Papers</h6>
-    <ul>
-        <li>
+    <ul class="ulacc">
+        <li class="liacc">
             <span class="paper-title">A Haskell encoding for reconfigurable timed systems</span> -
             <span class="authors">Antonio Castro Iglesias, Alexandre Madeira, Manuel Martins</span>
-        </li><li>
+        </li><li class="liacc">
             <span class="paper-title">Reasoning about blurred observations of program states: A recipe</span> -
             <span class="authors">Manisha Jain, Alexandre Madeira, Luís  Barbosa</span>
-        </li><li>
+        </li><li class="liacc">
             <span class="paper-title">Four-valued logics of indicative conditionals</span> -
             <span class="authors">Miguel Muñoz Pérez</span>
-        </li><li>
+        </li><li class="liacc">
             <span class="paper-title">Dynamic Fuzzy Language for Label Fuzzy Reactive Graphs</span> -
             <span class="authors">Suene Duarte, Daniel Figueiredo, Manuel Martins, Regivan Santiago</span>
         </li>
     </ul>
-</body>
-</html>
- 
+ </div>
 
 
 <!-- <div class="row mt-xs-0 mt-sm-0 my-2">
@@ -98,7 +84,7 @@ slide_id: 7
         <h5 class="text-info">Accepted Papers</h5>
         <ul>
             {% for paper in site.data.accepted %}
-            <li>
+            <li class="liacc">
                 <strong>{{paper.title}}</strong>
                 <br>
                 {% for author in paper.authors %}
