@@ -96,10 +96,10 @@ navbar:
   #   label: Submission
   #   path: /submission.html
   #   visible: True
-  #   - id: 2
-  #     label: Accepted Papers
-  #     path: /accepted.html
-  #     visible: True
+  - id: 2
+    label: Accepted Papers
+    path: /accepted.html
+    visible: True
   # - id: 4
   #   label: Program
   #   path: /program.html
