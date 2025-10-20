@@ -96,22 +96,22 @@ navbar:
   #   label: Submission
   #   path: /submission.html
   #   visible: True
-  - id: 2
-    label: Accepted Papers
-    path: /accepted.html
-    visible: True
-  # - id: 4
-  #   label: Program
-  #   path: /program.html
+  # - id: 2
+  #   label: Accepted Papers
+  #   path: /accepted.html
   #   visible: True
+  - id: 4
+    label: Program
+    path: /program.html
+    visible: True
   # - id: 5
   #   label: Venue
   #   path: /venue.html
   #   visible: True
-  # - id: 6
-  #   label: Registration
-  #   path: /registration.html
-  #   visible: True
+  - id: 6
+    label: Registration
+    path: /registration.html
+    visible: True
 deadline_timezone: AoE
 deadlines:
   # - date: 2024-08-20 - before extension in 2024
