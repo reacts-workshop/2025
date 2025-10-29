@@ -112,6 +112,10 @@ navbar:
     label: Registration
     path: /registration.html
     visible: True
+  - id: 6
+    label: Invited Talks
+    path: /invited-talks.html
+    visible: False
 deadline_timezone: AoE
 deadlines:
   # - date: 2024-08-20 - before extension in 2024
