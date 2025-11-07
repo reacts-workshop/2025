@@ -156,3 +156,14 @@ body {
 .navbar-dark .navbar-nav>.active {
     color: #5393c5 !important;
 }
+
+.sorganisation {
+}
+
+.sinvited {
+    background-color: lightpink;
+}
+
+.stalk {
+    background-color: #dcf0f6;
+}
