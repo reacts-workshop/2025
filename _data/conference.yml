@@ -153,6 +153,9 @@ sponsors:
   - name: Research Centre in Real-Time and Embedded Computing Systems (CISTER)
     logo_path: /assets/images/sponsors/cister-logo.png
     url: https://cister-labs.pt
+  - name: Lecture Notes in Computer Science (LNCS)
+    logo_path: /assets/images/sponsors/lncs-logo.jpg
+    url: https://www.springer.com/gp/computer-science/lncs
 #   - name: International Association of Sanskrit Studies
 #     logo_path: ./assets/images/sponsors/iass-logo.png
 #     url: https://www.sanskritassociation.org/
